@@ -6,7 +6,7 @@ import random
 palavras = ['pica', 'menina', 'etrom', 'mizera', 'ednaldo']
 #--------------------------------------------------------------------------------------
 #Pra me dar uma palavra aleatória da pool
-palavra_aleatoria = random.choice(palavras)
+palavra_aleatoria = random.choice(palavras).lower()
 #--------------------------------------------------------------------------------------
 #Váriavel com lista em branco pras letras corretas só o básico
 letras_corretas = []
